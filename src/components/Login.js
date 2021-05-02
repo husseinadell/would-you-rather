@@ -19,7 +19,12 @@ class Login extends Component {
   handleClick = (event) => {
     event.preventDefault();
     this.props.dispatch(loginUser(this.state.userId));
-    this.props.history.push("/");
+    const state = this.props.location.state;
+    if (state?.from?.pathname) {
+      this.props.history.push(state.from.pathname);
+    } else {
+      this.props.history.push("/");
+    }
   };
 
   onChange = (event) => {

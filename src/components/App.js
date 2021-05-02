@@ -45,7 +45,7 @@ class App extends React.Component {
               component={QuestionPage}
             />
             <Route path="/login" component={Login} />
-            <Route component={NotFound} />
+            <PrivateRoute authedUser={authedUser} component={NotFound} />
           </Switch>
         </>
       </BrowserRouter>

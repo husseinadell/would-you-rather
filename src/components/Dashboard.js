@@ -49,18 +49,18 @@ class Dashboard extends Component {
           textColor="primary"
           variant="fullWidth"
         >
-          <Tab label={`Answerd questions ${answerdQuestions.length}`} />
           <Tab label={`Unanswerd questions ${unAnswerdQuestions.length}`} />
+          <Tab label={`Answerd questions ${answerdQuestions.length}`} />
         </Tabs>
         <TabPanel value={tabId} index={0}>
-          {answerdQuestions &&
-            this.fromatQuestions(answerdQuestions).map((question) => (
+          {unAnswerdQuestions &&
+            this.fromatQuestions(unAnswerdQuestions).map((question) => (
               <Question key={question.id} {...question} />
             ))}
         </TabPanel>
         <TabPanel value={tabId} index={1}>
-          {unAnswerdQuestions &&
-            this.fromatQuestions(unAnswerdQuestions).map((question) => (
+          {answerdQuestions &&
+            this.fromatQuestions(answerdQuestions).map((question) => (
               <Question key={question.id} {...question} />
             ))}
         </TabPanel>

@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Would You Rather - React & Redux Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is React application is the third project in Udacity's React Nanodegree - React & Redux
+It's a simple game where you login with one of the available users, then start answering and adding questions
+Also, you can view leaderboard for the total questions and answers.
+
 
 ## Available Scripts
 
@@ -44,26 +48,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+To learn Redux, check out the [Redux documentation](https://redux.js.org/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+to learn about using material UI, check out the [Material UI Home](https://material-ui.com/)
 
-### Analyzing the Bundle Size
+to learn about React Router, check out the [React Router documentation](https://reactrouter.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+for creating protected routes, check this [link](https://ui.dev/react-router-v4-protected-routes-authentication/)
