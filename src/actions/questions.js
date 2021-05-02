@@ -10,7 +10,7 @@ export function handleAddQuestion(optionOneText, optionTwoText) {
     const questionData = {
       optionOneText,
       optionTwoText,
-      authedUser,
+      author: authedUser,
     };
     return saveQuestion(questionData).then((question) => {
       dispatch(addQuestion(question));
