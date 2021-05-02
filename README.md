@@ -55,3 +55,7 @@ to learn about using material UI, check out the [Material UI Home](https://mater
 to learn about React Router, check out the [React Router documentation](https://reactrouter.com/)
 
 for creating protected routes, check this [link](https://ui.dev/react-router-v4-protected-routes-authentication/)
+
+## Author
+
+[Hussein Adel](https://github.com/husseinadell)

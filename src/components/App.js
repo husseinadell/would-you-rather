@@ -36,12 +36,12 @@ class App extends React.Component {
             />
             <PrivateRoute
               authedUser={authedUser}
-              path="/new"
+              path="/add"
               component={NewQuestion}
             />
             <PrivateRoute
               authedUser={authedUser}
-              path="/question/:id"
+              path="/questions/:id"
               component={QuestionPage}
             />
             <Route path="/login" component={Login} />

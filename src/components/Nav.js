@@ -13,7 +13,7 @@ class Nav extends Component {
     const navLinks = [
       { title: "Home", path: `/` },
       { title: "Leaderboard", path: `/leaderboard` },
-      { title: "Add Question", path: `/new` },
+      { title: "Add Question", path: `/add` },
     ];
     const { authedUser, users } = this.props;
     const avatar = authedUser ? users[authedUser].avatarURL : null;

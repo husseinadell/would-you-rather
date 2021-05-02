@@ -31,7 +31,7 @@ function Question(props) {
       </CardContent>
       <CardActions>
         <Link
-          to={`question/${props.id}`}
+          to={`/questions/${props.id}`}
           style={{ width: "100%", textDecoration: "none" }}
         >
           <Button fullWidth variant="contained">
